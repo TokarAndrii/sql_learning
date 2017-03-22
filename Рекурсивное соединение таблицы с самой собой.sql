@@ -1,0 +1,1 @@
+SELECT e.fname, e.lname,e_mgr.fname,e_mgr.lname  from employee e INNER JOIN employee e_mgr on  e.superior_emp_id=e_mgr.emp_id;

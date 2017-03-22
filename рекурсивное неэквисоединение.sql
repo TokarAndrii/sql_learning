@@ -1,0 +1,2 @@
+SELECT e1.fname, e1.lname, 'VS' vs, e2.fname, e2.lname FROM employee e1 INNER JOIN employee e2 on e1.emp_id<e2.emp_id WHERE e1.title='Teller' AND e2.title='Teller' ORDER BY e1.fname;
+/* рекурсивное неэквисоединение (selfnon equijoin), таблица соединяется сама с собой с использованием неэквисоединения. */

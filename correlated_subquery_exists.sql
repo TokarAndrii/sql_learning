@@ -1,0 +1,1 @@
+SELECT a.account_id, a.product_cd, a.cust_id, a.avail_balance FROM account a WHERE EXISTS (SELECT 1 FROM transaction t WHERE t.account_id = a.account_id AND t.txn_date = '2004-10-28');

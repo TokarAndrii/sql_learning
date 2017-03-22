@@ -1,0 +1,1 @@
+SELECT CAST('20050327' AS DATE) date_field,CAST('108:17:57' AS TIME) time_field;
